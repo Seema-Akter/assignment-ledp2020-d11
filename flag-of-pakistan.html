@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pakistani Flag</title>
+	<style>
+		body{
+			background-color: #cfcfcf;
+		}
+		.flag{
+			width: 600px;
+			height: 400px;
+			background-color: #006600;
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+		}
+		.flag:after{
+			content: '';
+			width: 120px;
+			height: 400px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: #fff;
+		}
+		.flag:before{
+			content: ' \00a0 \00a0 \00a0 \2002 \2605';
+			color: #fff;
+			font-size: 100px;
+			word-spacing: -20px;
+			width: 180px;
+			height: 180px;
+			position: absolute;
+			top: 90px;
+			left: 300px;
+			border-radius: 50%;
+			box-shadow: -30px 0 0 #fff;
+			background-color: transparent;
+			transform: rotate(-40deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="flag"></div>
+</body>
+</html>
